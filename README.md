@@ -1,2 +1,3 @@
 # SulasokDevs
-Registration Form for customers and admins
+Registration Form for Customers and Admins/Staffs
+
