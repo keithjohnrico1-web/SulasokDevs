@@ -1,3 +1,4 @@
+HEAD
 1. Install XAMPP (Apache + MySQL) and enable the `intl` and `mbstring` extensions in php.ini.
 2. Run `composer install` in this folder.
 3. In phpMyAdmin, create a database named `sunsons_db` and import `sunsons_db.sql`.
@@ -17,3 +18,8 @@ Usable accounts
 Folders
 - `app/Controllers`, `app/Models`, `app/Views`: application code
 - `public/`: CSS and images
+=======
+# SulasokDevs
+Registration Form for Customers and Admins/Staffs
+
+>>>>>>> e73e991296d13f7ea5f0dbef1f48fa3414abd342
