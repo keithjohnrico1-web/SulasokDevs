@@ -1,0 +1,25 @@
+body { font-family: Arial, sans-serif; margin: 0; color: #333; display: block; background: #fff; min-height: 0; }
+nav { background: #111; display: flex; align-items: center; justify-content: space-between; padding: 10px 40px; position: sticky; top: 0; }
+nav img { width: 45px; height: 45px; border-radius: 50%; vertical-align: middle; margin-right: 10px; }
+nav .brand { color: #ff9900; font-weight: bold; }
+nav a { color: white; text-decoration: none; margin-left: 20px; font-size: 14px; }
+nav a:hover { color: #ff9900; }
+.hero { background: #111; color: white; text-align: center; padding: 90px 20px; }
+.hero h1 { font-size: 42px; color: #ff9900; margin: 0 0 10px; }
+.hero p { font-size: 18px; margin-bottom: 25px; }
+.cta { display: inline-block; background: #ff9900; color: white; padding: 12px 26px; border-radius: 4px; text-decoration: none; margin: 4px; }
+.cta:hover { background: #e68a00; }
+section { padding: 50px 40px; max-width: 1000px; margin: 0 auto; }
+section h2 { text-align: center; color: #333; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+.card { background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); padding: 20px; }
+.card h3 { color: #ff9900; margin-top: 0; }
+.alt { background: #f4f4f4; max-width: none; }
+.alt > div { max-width: 1000px; margin: 0 auto; }
+.login-box { max-width: 350px; margin: 0 auto; }
+.login-box input, .login-box select { width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+.login-box button { width: 100%; background: #ff9900; color: white; border: none; padding: 12px; border-radius: 4px; font-size: 16px; cursor: pointer; }
+details { background: white; border-radius: 6px; box-shadow: 0 0 6px rgba(0,0,0,0.1); padding: 12px 16px; margin-bottom: 10px; }
+summary { cursor: pointer; font-weight: bold; }
+footer { background: #111; color: #ccc; text-align: center; padding: 30px 20px; font-size: 13px; }
+footer a { color: #ff9900; margin: 0 8px; text-decoration: none; }

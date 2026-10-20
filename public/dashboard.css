@@ -1,0 +1,26 @@
+/* extends registercustomer.css - same look: white box, orange buttons */
+body { align-items: flex-start; background-color: #f4f4f4; padding: 20px; box-sizing: border-box; }
+.box.wide { width: 950px; max-width: 100%; max-height: none; }
+.topbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; }
+.topbar h2 { margin: 0; }
+.topbar a { color: #ff9900; font-size: 13px; text-decoration: none; }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+.tabs a { padding: 8px 14px; border: 1px solid #ff9900; border-radius: 4px; color: #ff9900; text-decoration: none; font-size: 13px; }
+.tabs a.active { background: #ff9900; color: white; }
+h3 { color: #333; font-size: 16px; margin: 20px 0 10px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 15px; }
+th, td { border-bottom: 1px solid #eee; padding: 8px; text-align: left; }
+th { color: #555; background: #fafafa; }
+textarea { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-family: inherit; }
+.btn { display: inline-block; width: auto; grid-column: auto; margin-top: 0; padding: 6px 12px; font-size: 13px; }
+.msg { background: #d4edda; color: #155724; padding: 10px; border-radius: 4px; margin-bottom: 15px; font-size: 14px; }
+.note { background: #fff8e6; border-left: 4px solid #ff9900; padding: 8px 12px; margin-bottom: 10px; font-size: 13px; }
+.bar { background: #ff9900; height: 14px; border-radius: 3px; }
+form.inline { display: inline; }
+.checkin-btn { font-size: 22px; padding: 30px; }
+.cal td { vertical-align: top; height: 80px; width: 14%; border: 1px solid #eee; font-size: 11px; }
+.cal .ev { background: #fff1d6; border-radius: 3px; padding: 2px 4px; margin-top: 2px; }
+.cal th { text-align: center; }
+.days label { display: inline; font-weight: normal; margin-right: 6px; }
+.days input { width: auto; }
+.msg-err { background:#f8d7da; color:#721c24; padding:10px; border-radius:4px; margin-bottom:15px; text-align:center; font-size:14px; }
